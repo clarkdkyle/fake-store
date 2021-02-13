@@ -25,7 +25,7 @@ export default function Home() {
   </a>
 </p>
 
-        <div className={styles.grid}>
+        <div className={styles.grid} >
           {items.map((item) => {
             return (
               <div key={item.id} className={styles.card}>
