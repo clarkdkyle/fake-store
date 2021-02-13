@@ -1,0 +1,16 @@
+[
+    {
+      "title": "Secret of Mana",
+      "id": "Secret of Mana",
+      "description": "Play this game!",
+      "price": "2.00",
+      "image": "/images/shadow-of-the-colossus-playstation-4-front-cover.jfif"
+    },
+    {
+      "title": "Shadow of the Colossus",
+      "id": "Shadow of the Colossus",
+      "description": "Play this game!",
+      "price": "4.00",
+      "image": "/images/secret-of-mana-playstation-4-front-cover.jpg"
+    }
+  ]
