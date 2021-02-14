@@ -37,7 +37,7 @@ export default function Home() {
           {items.map((item) => {
             return (
               <div key={item.id} className={styles.card}>
-                <img src={item.image} alt={`Preview of ${item.title}`} />
+                <img className={styles.image} src={item.image} alt={`Preview of ${item.title}`} />
                 <h3>{item.title}</h3>
                 <p>{item.description}</p>
                 <br />
