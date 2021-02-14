@@ -13,18 +13,21 @@ export default function Home() {
           href="https://cdn.snipcart.com/themes/v3.0.21/default/snipcart.css"
         />
       </Head>
-
-      <main className={styles.main}>
-        <h1 className={styles.title}>
+      <header className={styles.main}>
+        <nav>
+      <h1 className={styles.title}>
          Fake Store
-        </h1>
-
-        <p className={styles.description}>
+        </h1><p className={styles.description}>
   <a className="snipcart-checkout snipcart-summary" href="#" style={{textDecoration: "none"}}>
     <strong>Cart:</strong> <span className="snipcart-total-price">$0.00</span>
   </a>
 </p>
+</nav>
+      </header>
 
+      <main className={styles.main}>
+        
+        
         <div className={styles.grid} >
           {items.map((item) => {
             return (
