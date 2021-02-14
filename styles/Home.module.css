@@ -1,11 +1,10 @@
 .container {
   min-height: 100vh;
-  padding: 0 0.5rem;
+  min-width: 100vw;
+  background-color: #ffffff;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+  }
 
 .main {
   padding: 5rem 0;
@@ -23,6 +22,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #1E3932;
+  color:#ffffff;
 }
 
 
@@ -74,16 +75,22 @@
   margin: 0;
 }
 
-.cart a {
-  display: flex;
-  align-items: center;
+.cartButton{
+  color: white;
+  font-size: 1em;
+  font-weight: bold;
+  background-color: #1E3932;
+  padding: .4em .6em;
+  border: none;
+  border-radius: .4em;
+  cursor: pointer;
 }
 
 .cart svg {
   margin-right: .4em;
 }
 .code {
-  background: #fafafa;
+  background: #ffffff;
   border-radius: 5px;
   padding: 0.75rem;
   font-size: 1.1rem;
@@ -105,30 +112,32 @@
   flex-basis: 45%;
   padding: 1.5rem;
   text-align: left;
-  color: inherit;
+  color: #ffffff;
   text-decoration: none;
   border: 1px solid #eaeaea;
-  border-radius: 10px;
+  border-radius: 20px;
   transition: color 0.15s ease, border-color 0.15s ease;
-  background-color: cadetblue;
+  background-color: #00704a;
+  
 }
 
 .card:hover,
 .card:focus,
 .card:active {
-  background-color:cornflowerblue ;
-  border-color: #0070f3;
+  background-color:#00704a ;
+  border-color: #00704a;
 }
 
 .card button {
   color: white;
   font-size: 1em;
   font-weight: bold;
-  background-color: #0070f3;
+  background-color: #1E3932;
   padding: .4em .6em;
   border: none;
   border-radius: .4em;
   cursor: pointer;
+  float: right;
 }
 
 .card h3 {
