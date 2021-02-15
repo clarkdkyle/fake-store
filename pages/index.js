@@ -5,17 +5,26 @@ import items from '../items.json'
 import NavBar from './navbar.jsx'
 import AddShoppingCartIcon from '@material-ui/icons/AddShoppingCart';
 
+const filterItems = (items, query) => {
+  if (!query) {
+      return items;
+  }
+
+  return items.filter((item) => {
+      const itemName = item.title.toLowerCase();
+      return itemName.includes(query);
+  });
+};
+
+
+
 export default function Home() {
 
-  const [search, setSearch] = useState("");
-  const [searchResults, setSearchResults] = useState([]);
- 
-  useEffect(() => {
-    const results = items.filter(items =>
-      items.title.toLowerCase().includes(search)
-    );
-    setSearchResults(results);
-  }, [search]);
+  const  [search, setSearch] = useState("")
+  useEffect(() => { setSearch(window.location)});
+  const query = new URLSearchParams(search).get('s');
+  const [searchQuery, setSearchQuery] = useState(query || '');
+  const filteredItems = filterItems(items, searchQuery);
 
     return (
     <div className={styles.container}>
@@ -46,13 +55,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <div className={styles.grid}>
-          {items.filter((item)=>{
-      if(search == null)
-          return items
-          else if(item.title.toLowerCase().includes(search.toLowerCase()) || item.title.toLowerCase().includes(search.toLowerCase())){
-            return items
-      }
-    }).map((item) => {
+          {filteredItems.map((item) => {
             return (
               <div key={item.id} className={styles.card}>
                 <img className={styles.image} src={item.image} alt={`Preview of ${item.title}`} />

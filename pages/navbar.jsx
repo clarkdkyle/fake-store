@@ -8,6 +8,7 @@ import AddShoppingCartIcon from '@material-ui/icons/AddShoppingCart';
 import styles from '../styles/Home.module.css'
 import SearchIcon from '@material-ui/icons/Search';
 import InputBase from '@material-ui/core/InputBase';
+import { useHistory } from 'react-router-dom';
 
 
 
@@ -67,19 +68,23 @@ const useStyles = makeStyles((theme) => ({
     }));
     
 
-export default function NavBar() {
+const NavBar  = ({ searchQuery, setSearchQuery }) => {
   const classes = useStyles();
 
-  const handleChange = e => {
-    setSearch(e.target.value);
-  };
-  const [search, setSearch] = useState("");
+  const history = useHistory();
+    const onSubmit = (e) => {
+        history.push(`?s=${searchQuery}`);
+        e.preventDefault();
+    };
 
- 
+
+
+
   return (
     <div className={classes.root}>
     <AppBar position="static" style={{backgroundColor:"#00704a"}}>
-      <Toolbar>
+      <Toolbar             onSubmit={onSubmit}
+>
         <Typography className={classes.title} variant="h2" noWrap>
           Dumb Starbucks
         </Typography>
@@ -94,8 +99,9 @@ export default function NavBar() {
               input: classes.inputInput,
             }}
             inputProps={{ 'aria-label': 'search' }}
-            value={search}
-        onChange={handleChange}
+            value={searchQuery}
+            onInput={(e) => setSearchQuery(e.target.value)}
+
           />
         </div>
           <Button color="inherit"><a
@@ -113,4 +119,4 @@ export default function NavBar() {
 }
 
 
-            
+export default NavBar   
