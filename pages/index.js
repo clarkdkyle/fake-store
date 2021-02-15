@@ -1,3 +1,4 @@
+import React, { useState, useEffect } from 'react'
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import items from '../items.json'
@@ -5,7 +6,18 @@ import NavBar from './navbar.jsx'
 import AddShoppingCartIcon from '@material-ui/icons/AddShoppingCart';
 
 export default function Home() {
-  return (
+
+  const [search, setSearch] = useState("");
+  const [searchResults, setSearchResults] = useState([]);
+ 
+  useEffect(() => {
+    const results = items.filter(items =>
+      items.title.toLowerCase().includes(search)
+    );
+    setSearchResults(results);
+  }, [search]);
+
+    return (
     <div className={styles.container}>
       <Head>
         <link rel="preconnect" href="https://app.snipcart.com" />
@@ -34,7 +46,13 @@ export default function Home() {
 
       <main className={styles.main}>
         <div className={styles.grid}>
-          {items.map((item) => {
+          {items.filter((item)=>{
+      if(search == null)
+          return items
+          else if(item.title.toLowerCase().includes(search.toLowerCase()) || item.title.toLowerCase().includes(search.toLowerCase())){
+            return items
+      }
+    }).map((item) => {
             return (
               <div key={item.id} className={styles.card}>
                 <img className={styles.image} src={item.image} alt={`Preview of ${item.title}`} />
