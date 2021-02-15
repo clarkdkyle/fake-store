@@ -4,6 +4,8 @@ import styles from '../styles/Home.module.css'
 import items from '../items.json'
 import NavBar from './navbar.jsx'
 import AddShoppingCartIcon from '@material-ui/icons/AddShoppingCart';
+import { BrowserRouter as Router } from "react-router-dom";
+import Search from './search';
 
 const filterItems = (items, query) => {
   if (!query) {
@@ -11,20 +13,21 @@ const filterItems = (items, query) => {
   }
 
   return items.filter((item) => {
-      const itemName = item.title.toLowerCase();
-      return itemName.includes(query);
+      const itemTitle= item.title.toLowerCase();
+      return itemTitle.includes(query);
   });
 };
 
 
-
 export default function Home() {
 
-  const  [search, setSearch] = useState("")
+   const  [search, setSearch] = useState("")
   useEffect(() => { setSearch(window.location)});
   const query = new URLSearchParams(search).get('s');
   const [searchQuery, setSearchQuery] = useState(query || '');
   const filteredItems = filterItems(items, searchQuery);
+ 
+
 
     return (
     <div className={styles.container}>
@@ -41,19 +44,15 @@ export default function Home() {
         <NavBar>
           <h1 className={styles.title}>Dumb Starbucks</h1>
           <p className={styles.description}>
-            <a
-              className="snipcart-checkout snipcart-summary"
-              href="#"
-              style={{ textDecoration: "none" }}
-            >
-              <strong>Cart:</strong>{" "}
-              <span className="snipcart-total-price">$0.00</span>
-            </a>
+           
           </p>
         </NavBar>
       </header>
 
       <main className={styles.main}>
+      <Search 
+            searchQuery={searchQuery}
+            setSearchQuery={setSearchQuery}/>
         <div className={styles.grid}>
           {filteredItems.map((item) => {
             return (

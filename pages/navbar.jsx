@@ -1,4 +1,4 @@
-import React, { useState }from 'react';
+import React, { useState, useEffect }from 'react';
 import { fade, makeStyles, StylesProvider } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
@@ -6,9 +6,7 @@ import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import AddShoppingCartIcon from '@material-ui/icons/AddShoppingCart';
 import styles from '../styles/Home.module.css'
-import SearchIcon from '@material-ui/icons/Search';
-import InputBase from '@material-ui/core/InputBase';
-import { useHistory } from 'react-router-dom';
+
 
 
 
@@ -68,42 +66,18 @@ const useStyles = makeStyles((theme) => ({
     }));
     
 
-const NavBar  = ({ searchQuery, setSearchQuery }) => {
-  const classes = useStyles();
+export default function NavBar  () {
+      const classes = useStyles();
 
-  const history = useHistory();
-    const onSubmit = (e) => {
-        history.push(`?s=${searchQuery}`);
-        e.preventDefault();
-    };
-
-
-
-
-  return (
+  
+    return (
     <div className={classes.root}>
     <AppBar position="static" style={{backgroundColor:"#00704a"}}>
-      <Toolbar             onSubmit={onSubmit}
->
+      <Toolbar >
         <Typography className={classes.title} variant="h2" noWrap>
           Dumb Starbucks
         </Typography>
-        <div className={classes.search}>
-          <div className={classes.searchIcon}>
-            <SearchIcon />
-          </div>
-          <InputBase
-            placeholder="Search…"
-            classes={{
-              root: classes.inputRoot,
-              input: classes.inputInput,
-            }}
-            inputProps={{ 'aria-label': 'search' }}
-            value={searchQuery}
-            onInput={(e) => setSearchQuery(e.target.value)}
-
-          />
-        </div>
+       
           <Button color="inherit"><a
               className="snipcart-checkout snipcart-summary"
               href="#"
@@ -112,11 +86,9 @@ const NavBar  = ({ searchQuery, setSearchQuery }) => {
               <AddShoppingCartIcon />
               <p className="snipcart-total-price">$0.00</p>
             </a></Button>
+            
         </Toolbar>
       </AppBar>
     </div>
   );
 }
-
-
-export default NavBar   
