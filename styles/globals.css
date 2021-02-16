@@ -2,7 +2,11 @@ html,
 body {
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-    background-color:aliceblue
+    background-image: url("https://ih1.redbubble.net/image.419879232.6903/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg");
+    background-color: #ffffff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 a {
@@ -16,8 +20,7 @@ a {
 
 img {
   max-width: 100%;
-  margin: 10px;
-  border:10px #00704a;
+  margin: 10px, 20px 10px 10px;
   border-radius: 500px;
   -webkit-border-radius: 500px;
   -moz-border-radius: 500px;

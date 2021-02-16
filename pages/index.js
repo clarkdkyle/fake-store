@@ -43,9 +43,7 @@ export default function Home() {
       <header>
         <NavBar>
           <h1 className={styles.title}>Dumb Starbucks</h1>
-          <p className={styles.description}>
-           
-          </p>
+         
         </NavBar>
       </header>
 
