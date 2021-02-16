@@ -1,7 +1,6 @@
 .container {
   min-height: 100vh;
   min-width: 100vw;
-  background-color: #ffffff;
   display: flex;
   flex-direction: column;
   }
