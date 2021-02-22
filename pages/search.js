@@ -74,7 +74,7 @@ const SearchBar = ({ searchQuery, setSearchQuery }) => {
             onInput={e => setSearchQuery(e.target.value)}
             type="text"
             id="header-search"
-            placeholder="search our dumb drinks!"
+            placeholder="dumb searching..."
             name="s"
         />
           </div>
