@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8cdab8a8-c623-4546-8f93-47deb7c738d9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaExercises/src/main/java/org/tekcamp/java/java_4/testing/Receipt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaExercises/src/test/java/org/tekcamp/java/java_4/testing/ReceiptTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tekcamp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Agile-Team-Project" beforeDir="false" afterPath="$PROJECT_DIR$/../Agile-Team-Project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaExercises/src/java_1/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExercises/src/main/java/org/tekcamp/java/java_1/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaExercises/src/java_1/collections/CollectionsChallenges.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExercises/src/main/java/org/tekcamp/java/java_1/collections/CollectionsChallenges.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaExercises/src/java_1/dataTypes/Arrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExercises/src/main/java/org/tekcamp/java/java_1/dataTypes/Arrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaExercises/src/java_1/dataTypes/DataTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExercises/src/main/java/org/tekcamp/java/java_1/dataTypes/DataTypes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaExercises/src/java_1/dataTypes/JavaChallenges.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExercises/src/main/java/org/tekcamp/java/java_1/dataTypes/JavaChallenges.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaExercises/src/java_2/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExercises/src/main/java/org/tekcamp/java/java_2/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaExercises/src/java_2/oop/bank/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExercises/src/main/java/org/tekcamp/java/java_2/oop/bank/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaExercises/src/java_2/oop/bank/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExercises/src/main/java/org/tekcamp/java/java_2/oop/bank/Bank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaExercises/src/java_2/oop/bank/BankingApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExercises/src/main/java/org/tekcamp/java/java_2/oop/bank/BankingApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaExercises/src/java_2/oop/bank/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExercises/src/main/java/org/tekcamp/java/java_2/oop/bank/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaExercises/src/java_2/oop/coffee/CoffeeApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExercises/src/main/java/org/tekcamp/java/java_2/oop/coffee/CoffeeApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaExercises/src/java_2/oop/coffee/CoffeeBeans.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExercises/src/main/java/org/tekcamp/java/java_2/oop/coffee/CoffeeBeans.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaExercises/src/java_2/oop/coffee/CoffeeMaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExercises/src/main/java/org/tekcamp/java/java_2/oop/coffee/CoffeeMaker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaExercises/src/java_2/oop/coffee/Cup.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExercises/src/main/java/org/tekcamp/java/java_2/oop/coffee/Cup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaExercises/src/java_2/oop/coffee/Machine.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExercises/src/main/java/org/tekcamp/java/java_2/oop/coffee/Machine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaExercises/src/java_2/oop/monkey/MonkeyApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExercises/src/main/java/org/tekcamp/java/java_2/oop/monkey/MonkeyApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaExercises/src/java_2/oop/monkey/MonkeyCage.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExercises/src/main/java/org/tekcamp/java/java_2/oop/monkey/MonkeyCage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaExercises/src/java_2/oop/phone/CellPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExercises/src/main/java/org/tekcamp/java/java_2/oop/phone/CellPhone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaExercises/src/java_2/oop/phone/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExercises/src/main/java/org/tekcamp/java/java_2/oop/phone/Contact.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaExercises/src/java_2/oop/phone/PhoneApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExercises/src/main/java/org/tekcamp/java/java_2/oop/phone/PhoneApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaExercises/src/java_2/oop/phone/Phoneable.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExercises/src/main/java/org/tekcamp/java/java_2/oop/phone/Phoneable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaExercises/src/java_2/oop/podcast/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExercises/src/main/java/org/tekcamp/java/java_2/oop/podcast/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaExercises/src/java_2/oop/podcast/Podcast.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExercises/src/main/java/org/tekcamp/java/java_2/oop/podcast/Podcast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaExercises/src/java_2/oop/podcast/PodcastingApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExercises/src/main/java/org/tekcamp/java/java_2/oop/podcast/PodcastingApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaExercises/src/java_2/oop/rainforest/Creature.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExercises/src/main/java/org/tekcamp/java/java_2/oop/rainforest/Creature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaExercises/src/java_2/oop/rainforest/RainforestApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExercises/src/main/java/org/tekcamp/java/java_2/oop/rainforest/RainforestApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaExercises/src/java_2/oop/rainforest/RainforestCreature.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExercises/src/main/java/org/tekcamp/java/java_2/oop/rainforest/RainforestCreature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaExercises/src/java_3/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExercises/src/main/java/org/tekcamp/java/java_3/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaExercises/src/java_3/concurrency/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExercises/src/main/java/org/tekcamp/java/java_3/concurrency/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaExercises/src/java_3/concurrency/Reasoning.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExercises/src/main/java/org/tekcamp/java/java_3/concurrency/Reasoning.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaExercises/src/java_3/concurrency/Sync.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExercises/src/main/java/org/tekcamp/java/java_3/concurrency/Sync.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaExercises/src/java_3/concurrency/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExercises/src/main/java/org/tekcamp/java/java_3/concurrency/Team.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaExercises/src/java_3/lambda_stream/Animals.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExercises/src/main/java/org/tekcamp/java/java_3/lambda_stream/Animals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaExercises/src/java_3/lambda_stream/LambdaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExercises/src/main/java/org/tekcamp/java/java_3/lambda_stream/LambdaMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaExercises/src/java_3/lambda_stream/Numbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExercises/src/main/java/org/tekcamp/java/java_3/lambda_stream/Numbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaExercises/src/java_3/serial/Fax.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExercises/src/main/java/org/tekcamp/java/java_3/serial/Fax.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaExercises/src/java_3/serial/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExercises/src/main/java/org/tekcamp/java/java_3/serial/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaExercises/src/java_3/serial/MessageApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExercises/src/main/java/org/tekcamp/java/java_3/serial/MessageApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaExercises/src/java_3/serial/Serializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExercises/src/main/java/org/tekcamp/java/java_3/serial/Serializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaExercises/src/java_4/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExercises/src/main/java/org/tekcamp/java/java_4/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaExercises/src/java_4/logging/Scribe.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExercises/src/main/java/org/tekcamp/java/java_4/logging/Scribe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaExercises/src/java_4/regex/Regex.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExercises/src/main/java/org/tekcamp/java/java_4/regex/Regex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaExercises/src/java_4/testing/Polya's Problem Solving Framework.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExercises/src/main/java/org/tekcamp/java/java_4/testing/Polya's Problem Solving Framework.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaExercises/src/java_4/testing/Preamble.md" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExercises/src/main/java/org/tekcamp/java/java_4/testing/Preamble.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaExercises/src/java_4/testing/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExercises/src/main/java/org/tekcamp/java/java_4/testing/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaExercises/src/java_4/testing/UPER.md" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExercises/src/main/java/org/tekcamp/java/java_4/testing/UPER.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fake-store/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fake-store/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fake-store/items.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fake-store/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fake-store/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fake-store/pages/_app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fake-store/pages/api/hello.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fake-store/pages/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fake-store/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fake-store/public/images/sticker-3pack.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fake-store/public/images/sticker-single.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fake-store/public/vercel.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fake-store/styles/Home.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fake-store/styles/globals.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myprofile/myprofile" beforeDir="false" afterPath="$PROJECT_DIR$/../myprofile/myprofile" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/JavaExercises" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$USER_HOME$/apache-maven-3.6.3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1pDUu8gtHjAQK91QjGoc7UrjVGy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.tekcamp.java.java_4.testing" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Kyle\Documents\tekcamp\Java\JavaExercises\src\main\java\org\tekcamp\java" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="java_3.concurrency" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ReceiptTest.testToString">
+    <configuration name="LambdaMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_3.lambda_stream.LambdaMain" />
+      <module name="tekcamp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java_3.lambda_stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_3.concurrency.Main" />
+      <module name="tekcamp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java_3.concurrency.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MessageApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_3.serial.MessageApp" />
+      <module name="tekcamp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java_3.serial.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RainforestApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_2.oop.rainforest.RainforestApp" />
+      <module name="tekcamp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java_2.oop.rainforest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReceiptTest.testToString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tekcamp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.tekcamp.java.java_4.testing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.tekcamp.java.java_4.testing" />
+      <option name="MAIN_CLASS_NAME" value="org.tekcamp.java.java_4.testing.ReceiptTest" />
+      <option name="METHOD_NAME" value="testToString" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ReceiptTest.testToString" />
+        <item itemvalue="Application.LambdaMain" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.MessageApp" />
+        <item itemvalue="Application.RainforestApp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8cdab8a8-c623-4546-8f93-47deb7c738d9" name="Default Changelist" comment="" />
+      <created>1614717376092</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614717376092</updated>
+      <workItem from="1614717378167" duration="24011000" />
+      <workItem from="1615177606339" duration="7884000" />
+      <workItem from="1615226081544" duration="26495000" />
+      <workItem from="1615394281546" duration="4332000" />
+      <workItem from="1615567464100" duration="13613000" />
+      <workItem from="1615690086499" duration="2812000" />
+      <workItem from="1615819376751" duration="430000" />
+      <workItem from="1615824568853" duration="16464000" />
+      <workItem from="1615924338022" duration="5100000" />
+      <workItem from="1615990528683" duration="805000" />
+      <workItem from="1616012673978" duration="4351000" />
+      <workItem from="1616033318314" duration="19396000" />
+      <workItem from="1616266865557" duration="3977000" />
+      <workItem from="1616352961625" duration="8234000" />
+      <workItem from="1616463084385" duration="6828000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.io.NotSerializableException" package="java.io" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
